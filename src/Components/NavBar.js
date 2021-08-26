@@ -1,6 +1,6 @@
 import React from 'react'
 import { Dropdown } from 'react-bootstrap';
-import ReactStars from "react-rating-stars-component";
+import { Link } from 'react-router-dom';
 
 
 const NavBar = ({handleRate,handleSearch}) => {
@@ -10,7 +10,9 @@ const NavBar = ({handleRate,handleSearch}) => {
   };
     return (
       <div className="Nav">
+        
         <h1>Cima4Us</h1>
+        
         <div className="search-container">
           <input
             className="inp"
@@ -19,7 +21,7 @@ const NavBar = ({handleRate,handleSearch}) => {
             onChange={(e) => handleSearch(e.target.value)}
           />
 
-          <ReactStars count={5} size={25} onChange={ratingChanged} /> 
+          {/* <ReactStars count={5} size={25} onChange={ratingChanged} />  */}
 
           <Dropdown>
             <Dropdown.Toggle variant="success" id="dropdown-basic">

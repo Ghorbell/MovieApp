@@ -8,6 +8,7 @@ export const movieData = [
     date: "September 1994",
     desc: "Andy Dufresne, a successful banker, is arrested for the murders of his wife and her lover, and is sentenced to life imprisonment at the Shawshank prison. He becomes the most unconventional prisoner.",
     genre: "Drama/Crime ",
+    trailer: " https://www.youtube.com/embed/6hB3S9bIaco",
   },
   {
     id: Math.random(),
@@ -18,6 +19,7 @@ export const movieData = [
     date: "August 2005",
     desc: "Andy Stitzer (Steve Carell) is an amiable single guy who works at a big-box store. Living alone, 40-year-old Andy spends his free time playing video games and curating his action-figure collection. Despite his age, Andy has never had sex, so his friends, including the laid-back David (Paul Rudd), push Andy towards losing his virginity. While attempting to get over his awkwardness around female customers, Andy meets local shop owner Trish (Catherine Keener), and they begin a tentative romance.",
     genre: "Comedy/Romance",
+    trailer: "https://www.youtube.com/embed/b9TeAHszSh0 ",
   },
   {
     id: Math.random(),
@@ -28,6 +30,7 @@ export const movieData = [
     date: "October 2014",
     desc: "description 1",
     genre: "Sci-fi/Adventure",
+    trailer: "https://www.youtube.com/embed/zSWdZVtXT7E ",
   },
   {
     id: Math.random(),
@@ -38,6 +41,7 @@ export const movieData = [
     date: "September 1994",
     desc: "description 1",
     genre: "Crime/Drama",
+    trailer: "https://www.youtube.com/embed/s7EdQ4FqbhY ",
   },
   {
     id: Math.random(),
@@ -48,6 +52,7 @@ export const movieData = [
     date: "July 2019",
     desc: "description 1",
     genre: "Comedy/Drama ",
+    trailer: " https://www.youtube.com/embed/ELeMaP8EPAA",
   },
   {
     id: Math.random(),
@@ -58,6 +63,7 @@ export const movieData = [
     date: "February 2010",
     desc: "description 1",
     genre: "Thriller/Mystery",
+    trailer: " https://www.youtube.com/embed/5iaYLCiq5RM",
   },
   {
     id: Math.random(),
@@ -68,6 +74,7 @@ export const movieData = [
     date: "June 2003",
     desc: "description 1",
     genre: "Romance/Drama",
+    trailer: " https://www.youtube.com/embed/tfMTHIwTUXA",
   },
   {
     id: Math.random(),
@@ -78,5 +85,6 @@ export const movieData = [
     date: "June 1999 ",
     desc: "description 1",
     genre: "Comedy/Drama ",
+    trailer: "https://www.youtube.com/embed/jxnccxgybUI ",
   },
 ];

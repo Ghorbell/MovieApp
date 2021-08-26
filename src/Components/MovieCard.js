@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import StarRating from './StarRating';
 const MovieCard = ({film}) => {
     let {
@@ -22,12 +23,14 @@ const MovieCard = ({film}) => {
     return (
       <div>
         <Card className="card" style={{ width: 300 }}>
-          <Card.Img
-            variant="top"
-            src={image}
-            style={{ width: 300, height: 400 }}
-            alt={name}
-          />
+          <Link to={`/moviedetails/${film.id}`}>
+            <Card.Img
+              variant="top"
+              src={image}
+              style={{ width: 300, height: 400 }}
+              alt={name}
+            />
+          </Link>
           <Card.Body>
             <Card.Title className="titles">{name}</Card.Title>
 

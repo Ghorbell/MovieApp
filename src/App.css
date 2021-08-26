@@ -39,7 +39,7 @@
 }
 .main{
   margin: 5px 10px;
-  min-height: 500px;
+  min-height: 550px;
 }
 .movie-list{
     display: flex;
@@ -87,7 +87,9 @@ text-align: left;
 .card:hover .overview {
   transform: translateY(0);
 }
-
+h1{
+  color: red;
+}
 .AddMovie{
   display: flex;
   justify-content: left;
@@ -146,4 +148,11 @@ span:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.moviedetail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }

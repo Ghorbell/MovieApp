@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import { Link } from 'react-router-dom';
 import StarRating from './StarRating';
 
 const AddMovie = ({handleAdd}) => {
@@ -32,16 +33,7 @@ const [form, setForm] = useState({
 
     return (
       <div className="AddMovie">
-        <form onSubmit={handleSubmit}>
-          <hr
-            className="line"
-            style={{
-              color: 'white',
-              backgroundColor: 'white',
-              height: 0.5,
-              width:"90%"
-            }}
-          />
+        <form >
           <label>Movie Name</label>
           <input
             type="text"
@@ -86,8 +78,9 @@ const [form, setForm] = useState({
             <option value="9">9</option>
             <option value="10">10</option>
           </select>
+           <Link to='/'><button className="btn btn-secondary" >Close</button></Link>
           <button className="btn btn-primary">Add</button>
-        </form>
+          </form>
       </div>
     );
 }
